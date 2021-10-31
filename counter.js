@@ -7,3 +7,9 @@
 let count = 0
 let counter = document.getElementById("count-el")
 counter.innerText = count;
+
+const increment = () => {
+  // console.log("button clicked")
+  count++
+  counter.innerText = count
+}
